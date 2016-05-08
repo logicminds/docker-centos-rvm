@@ -2,7 +2,7 @@
 
 set -e
 yum install -y kernel-devel gcc-c++ kernel-headers make gcc wget git hostname tar gzip unzip > /dev/null
-yum install -y dmidecode hwdata libselinux-utils net-tools pciutils pciutils-libs virt-what zlib-devel
+yum install -y which dmidecode hwdata libselinux-utils net-tools pciutils pciutils-libs virt-what zlib-devel
 yum -y group install 'Development tools'
 
 REPO_URL="http://yum.puppetlabs.com/el/7/products/x86_64/puppetlabs-release-7-11.noarch.rpm"
