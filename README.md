@@ -14,3 +14,14 @@ rvm rubies
    ruby-2.3.1 [ x86_64 ]
 
 ```
+
+
+## Building
+```shell
+bash ./build.sh
+```
+## Interactive login
+docker run -ti logicminds/rvm:latest /bin/bash
+
+## Root access
+Root Password: Docker!
